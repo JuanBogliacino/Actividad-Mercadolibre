@@ -1,15 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background: #eee;
+}
+
+header {
     background-color: #eac926;
+    padding: 15px;
   }
+
+  .article-header {
+    outline: 1px solid blue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .div-logo-barra {
+    width: 100%;
+    display: flex;
+  } */
+
+  .logo-mercado-libre {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .article-barra {
+    width: 50%;
+  }
+
+  header p {
+    text-align: center;
+  }
+
   p {
     font-size: 12px;
   }
+
+  .lupa {
+      background: #fff;
+      display: inline-block;
+      padding: 1px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  ul {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+  }
+
+  li {
+      list-style: none;
+  }
+
+  li a {
+      color: #000;
+      text-decoration: none;
+  }
+
+  .div-burger-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .burger-menu {
+      background: #1259c3;
+      padding: 8px 10px;
+      border-radius: 6px;
+      /* position: relative;
+      left: 47%; */
+      margin: 10px 0 5px;
+  }
+
+  .burger-menu i {
+      color: #fff;
+  }
+
+  main {
+    margin: auto;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .articulos-caja-grande {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .articulos-producto {
+    background: #fff;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+  }
+
   .precios {
     font-size: 18px;
+    flex-grow: 0.3;
   }
-  h3 {
-    font-size: 24px;
-  }
+
   .descuentos {
     font-size: 16px;
+    color: #0b0;
+    margin-left: 8px;
+    flex-grow: 0.7;
   }
+
+  .descripcion {
+    font-size: 16px;
+    color: #777;
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+  }
+
+  footer h4 {
+    margin-bottom: 5px;
+  }
+
+  footer p {
+    margin-top: 0%;
+  }
+
+ .footer-icono i {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #1259c3;
+    font-size: 2em;
+ }
+
+
+
+
+ @media (min-width: 361px) {
+
+  .article-header {
+    flex-wrap: nowrap;
+  }
+
+  nav {
+   display: block;
+ }
+ 
+ .descripcion {
+     display: inline-block;
+   }
+
+   .burger-menu {
+     display: none;
+   }
+ }
