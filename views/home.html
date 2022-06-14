@@ -39,10 +39,12 @@
         </article>
        
   
-        <p class="p-compra-cuotas">
-          <i class="fa-solid fa-hand-holding-dollar"></i>
-          Comprá en cuotas y sin tarjeta de crédito
-        </p>
+        <div class="div-header-p">
+          <p class="p-compra-cuotas">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            Comprá en cuotas y sin tarjeta de crédito
+          </p>
+        </div>
       </article>
 
       <nav>
@@ -83,131 +85,104 @@
       alt="home-banner"
     />
 
+
+
+
+
+
+
     <main>
-      <section class="div-section">
-        <!-- productos basados en tu ultima busqueda -->
-      <section>
-        <h2>Basado en tu última visita</h2>
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-cafetera-moulinex.jpg"
-            width="100%"
-            alt="cafetera"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$6.770</p>
-            <p class="descuentos">40% OFF</p>
-          </article>
-          <p class="descripcion">Cafetera Moulinex</p>
-        </div>
-
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-macbook-pro-2019.jpg"
-            width="100%"
-            alt="MacBook"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$230.000</p>
-            <p class="descuentos">20% off</p>
-          </article>
-          <p class="descripcion">MacBook Pro 2019</p>
-        </div>
-
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-samsung-galaxy-s10.jpg"
-            width="100%"
-            alt="celular samsung"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$70.500</p>
-            <p class="descuentos">10% off</p>
-          </article>
-          <p class="descripcion">Samsung Galaxy S10</p>
-        </div>
-
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-tv-samsung-smart.jpg"
-            width="100%"
-            alt="smart samsung"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$23.200</p>
-            <p class="descuentos">5% off</p>
-          </article>
-          <p class="descripcion">SmartTv Samsung 43"</p>
-        </div>
+      <section class="ult-visita">
+          <h3>Basado en tu última visita</h3>
+          <div class="productos">
+              <article>
+                  <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$6.770</p>
+                      <p class="descuento">40% off</p>
+                      <h4 class="descripcion">Cafetera Moulinex</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$230.000</p>
+                      <p class="descuento">20% off</p>
+                      <h4 class="descripcion">MacBook Pro 2019</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="/images/img-samsung-galaxy-s10.jpg" alt="Teléfono Móvil Samsung Galaxy" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$70.500</p>
+                      <p class="descuento">10% off</p>
+                      <h4 class="descripcion">Samsung Galaxy S10</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$23.200</p>
+                      <p class="descuento">5% off</p>
+                      <h4 class="descripcion">SmartTv Samsung 43"</h4>
+                  </div>
+              </article>
+          </div>
       </section>
 
-      <!-- articulos en oferta  -->
-      <section>
-        <h2>Ofertas</h2>
 
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-cafetera-moulinex.jpg"
-            width="100%"
-            alt="cafetera"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$6.770</p>
-            <p class="descuentos">40% off</p>
-          </article>
-          <p class="descripcion">Cafetera Moulinex</p>
-        </div>
-
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-macbook-pro-2019.jpg"
-            width="100%"
-            alt="MacBook"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$230.000</p>
-            <p class="descuentos">20% off</p>
-          </article>
-          <p class="descripcion">MacBook Pro 2019</p>
-        </div>
-
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-samsung-galaxy-s10.jpg"
-            width="100%"
-            alt="celular samsung"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$70.500</p>
-            <p class="descuentos">10% off</p>
-          </article>
-          <p class="descripcion">Samsung Galaxy S10</p>
-        </div>
-
-        <div class="articulos-caja-grande">
-          <img
-            src="/images/img-tv-samsung-smart.jpg"
-            width="100%"
-            alt="smart samsung"
-          />
-
-          <article class="articulos-producto">
-            <p class="precios">$23.200</p>
-            <p class="descuentos">5% off</p>
-          </article>
-          <p class="descripcion">SmartTv Samsung 43"</p>
-        </div>
+      <section class="ofertas">
+          <h3>Ofertas</h3>
+          <div class="productos">
+              <article>
+                  <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$6.770</p>
+                      <p class="descuento">40% off</p>
+                      <h4 class="descripcion">Cafetera Moulinex</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$230.000</p>
+                      <p class="descuento">20% off</p>
+                      <h4 class="descripcion">MacBook Pro 2019</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="/images/img-samsung-galaxy-s10.jpg" alt="Teléfono Móvil Samsung Galaxy" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$70.500</p>
+                      <p class="descuento">10% off</p>
+                  <h4 class="descripcion">Samsung Galaxy S10</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung" class="product_img">
+                  <div class="main-article">
+                      <i class="fas fa-truck"></i>
+                      <p class="precio">$23.200</p>
+                      <p class="descuento">5% off</p>
+                      <h4 class="descripcion">SmartTv Samsung 43"</h4>
+                  </div>
+              </article>
+          </div>  
       </section>
-      </section>
-    </main>
+  </main>
 
+
+
+
+
+  
     <footer>
       <div class="footer-icono">
         <i class="fa-solid fa-credit-card"></i>
