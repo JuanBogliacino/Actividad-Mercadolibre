@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background: rgba(223, 215, 215, 0.945);
+    min-width: 320px;
+}
+
+.caja-amarilla {
+    width: 100%;
+    height: 200px;
+    background: #ff0;
+}
+
+.formulario {
+    padding: 15px;
+    background: rgb(221, 221, 221);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-label {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario label {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.formulario label input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: none;
+}
+
+.label-radio {
+    width: 100%;
+}
+
+.div-radio {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.div-label-categorias {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.article-intereses div{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.label-file {
+    margin : 10px 0;
+}
+
+.input-file {
+    background: none;
+}
+
+.div-button {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div-button button {
+    margin: 10px 20px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.button-enviar {
+    background: #1259c3;
+}
+
+.button-cancelar {
+    background: rgba(241, 49, 49, 0.925);
+}
+
+@media (min-width: 361px) {
+    .formulario {
+        display: block;
+        min-width: 300px;
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .div-label {
+        margin: 20px 0;
+    }
+
+    .div-radio {
+        margin: 30px 0;
+        justify-content: flex-start;
+    }
+
+    .div-radio div {
+        margin-right: 30px;
+    }
+    
+    .article-intereses {
+        margin-bottom: 40px;
+    }
+
+    .article-intereses div{
+        margin-bottom: 20px;
+    }
+
+    .label-file {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 769px) {
+}

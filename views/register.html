@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+
+    <div class="caja-amarilla"></div>
+
+    <form class="formulario">
+     <div class="div-label">
+       <label>Nombre y Apellido
+        <input type="text" name="nombre">
+       </label>
+     </div>
+
+    <div class="div-label">
+        <label>Nombre de usuario
+            <input type="email" name="email">
+        </label>
+    </div>
+
+    <div class="div-label">
+        <label>Fecha de nacimiento
+            <input type="date" name="fecha-nacimiento">
+        </label>
+    </div>
+
+    <div class="div-label">
+        <label>Domicilio
+            <input type="text" name="domicilio">
+        </label>
+    </div>
+
+        <label class="label-radio">Perfil de usuario</label>
+        <div class="div-radio">
+            <div>
+                <input type="radio" name="perfil-usuario" value="si">si
+            </div>
+            <div>
+                <input type="radio" name="perfil-usuario" value="no">no
+            </div>
+        </div>
+
+        <div class="div-label-categorias">
+            <label class="label-categorias">Categorías de interés</label>
+        </div>
+        <article class="article-intereses">
+        <div>
+            <input type="checkbox" name="intereses" value="electro">Electro
+        </div>
+        <div>
+            <input type="checkbox" name="intereses" value="moda">Moda
+        </div>
+        <div>
+            <input type="checkbox" name="intereses" value="hogar">Hogar
+        </div>
+        <div>
+            <input type="checkbox" name="intereses" value="jugueteria">Juguetería
+        </div>
+        <div>
+            <input type="checkbox" name="intereses" value="vida-sana">Vida sana
+        </div>
+        </article>         
+
+        <div class="label-file">
+            <label>Foto de usuario
+                <input type="file" name="foto-usuario" accept=".jpg" multiple class="input-file">
+            </label>
+        </div>
+
+        <div class="div-label">
+            <label class="label-contraseña">Contraseña
+                <input type="password" name="contraseña">
+            </label>
+        </div>
+
+        <div class="div-label">
+            <label>Confirmar contraseña
+                <input type="password" name="contraseña">
+            </label>
+        </div>
+
+        
+        <div class="div-button">
+            <button type="reset" class="button-cancelar">Cancelar</button>
+    
+            <a href="/#"><button type="submit" class="button-enviar">Enviar</button></a>
+        </div>
+
+
+    </form>
+</body>
+</html>
