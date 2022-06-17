@@ -12,15 +12,68 @@ body {
     min-width: 320px;
 }
 
-header {
+.main-header {
+    background: #eac926;
+    padding: 20px;
+}
+
+.hamburguer-button {
+    background: #03264c;
+    color: #fff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+.copy-header {
+    text-align: center;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar ul a {
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header {
     background-color: #eac926;
     padding: 15px;
   }
 
   .article-header {
     width: 100%;
-    /* display: flex;
-    flex-wrap: wrap; */
     outline: #1259c3 1px solid;
     display: flex;
     flex-wrap: wrap;
@@ -93,7 +146,7 @@ header {
 
   .burger-menu i {
       color: #fff;
-  }
+  } */
 
 
 
@@ -224,8 +277,13 @@ header {
      display: block;
     }
   
-  .descripcion {
+    .descripcion {
       display: inline-block;
+      color: transparent;
+    }
+
+    .descripcion:hover {
+        color: #666;
     }
  
    .burger-menu {
@@ -236,7 +294,7 @@ header {
         display: block;
     }
 
-    main section article{
+    main section article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
@@ -261,5 +319,37 @@ header {
 @media (min-width: 769px){
     main section .productos article{
         width: 22%;
+    }
+
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .hamburguer-button {
+        display: none;
+    }
+
+    .main-navbar {
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    .main-navbar li i {
+        margin-left: 3px;
     }
 }
