@@ -16,14 +16,19 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
     />
-    <title>proyecto mercado libre</title>
+    <title>Mercado liebre</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
 
     <header class="main-header">
       <div class="main-header-top-bar">
-          <img src="/images/logo-mercado-liebre.svg" class="logo">
+          <article class="div-prueba">
+             <img src="/images/logo-mercado-liebre.svg" class="logo">
+              <div class="barra-busqueda">
+             <input type="text" placeholder="Buscar producto"><i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          </article>
           <h2 class="copy-header">
               <i class="fa-solid fa-hand-holding-dollar"></i>
               Comprá en cuotas y sin tarjeta de crédito</h2>
@@ -47,8 +52,16 @@
                 Creá tu cuenta<i class="fa-solid fa-credit-card"></i>
               </li>
             </a>
-            <li><a href="#">Ingresá</a></li>
-            <li><a href="#">Mis compras</a></li>
+            <a href="/login">
+              <li>
+                Ingresá<i class="fa-solid fa-sign-in-alt"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                Mis compras<i class="fa-solid fa-shopping-basket"></i>
+              </li>
+            </a>
           </ul>
        </nav>
    </header>
@@ -136,7 +149,7 @@
 
     <main>
       <section class="ult-visita">
-          <h3>Basado en tu última visita</h3>
+          <h3>ofertas</h3>
           <div class="productos">
               <article>
                   <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
@@ -227,37 +240,45 @@
 
   
     <footer>
-      <div class="footer-icono">
-        <i class="fa-solid fa-credit-card"></i>
-      </div>
+      <article class="footer-conteiner">
+        <div class="footer-conteiner-item">
+          <div class="footer-icono">
+            <i class="fa-solid fa-credit-card"></i>
+          </div>
+    
+          <h4>Pagá con tarjeta o en efectivo</h4>
+          <p>
+            Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo
+            en puntos de pago. ¡Y siempre es seguro!
+          </p>
+        </div>
+  
+        <div class="footer-conteiner-item">
+          <div class="footer-icono">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+    
+          <h4>Envío gratis desde $ 2.500</h4>
+          <p>
+            Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles
+            de productos. Es un beneficio de Mercado Puntos.
+          </p>
+        </div>
+  
+        <div class="footer-conteiner-item">
+          <div class="footer-icono">
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+    
+          <h4>Seguridad, de principio a fin</h4>
+          <p>
+            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+            hacer, porque estás siempre protegid@.
+          </p>
+        </div>
+        </article>
 
-      <h4>Pagá con tarjeta o en efectivo</h4>
-      <p>
-        Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo
-        en puntos de pago. ¡Y siempre es seguro!
-      </p>
-
-      <div class="footer-icono">
-        <i class="fa-solid fa-gift"></i>
-      </div>
-
-      <h4>Envío gratis desde $ 2.500</h4>
-      <p>
-        Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles
-        de productos. Es un beneficio de Mercado Puntos.
-      </p>
-
-      <div class="footer-icono">
-        <i class="fa-solid fa-user-shield"></i>
-      </div>
-
-      <h4>Seguridad, de principio a fin</h4>
-      <p>
-        ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
-        hacer, porque estás siempre protegid@.
-      </p>
-
-      <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+      <p class="last-p">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
   </body>
 </html>
