@@ -64,5 +64,80 @@
             </ul>
          </nav>
      </header>
+
+
+
+
+     <main>
+      <section class="form-section">
+        <form action="/">
+          <label class="form-item">Nombre y apellido</label>
+  
+          <input class="form-item" type="text" name="nombre-apellido" placeholder="escriba su nombre">
+
+          <label class="form-item">Nombre de usuario</label>
+  
+          <input class="form-item" type="text" name="usuario" placeholder="nombre de usuario">
+
+          <label class="form-item">Fecha de nacimiento</label>
+  
+          <input class="form-item" type="date" name="fecha">
+
+          <label class="form-item">Perfil de usuario</label>
+
+          <article class="form-item div-radio">
+            <div>
+              <input type="radio" name="perfil-usuario" value="comprar">comprar
+            </div>
+            <div>
+              <input type="radio" name="perfil-usuario" value="vender">vender
+            </div>
+          </article>
+
+          <label class="form-item">Categorías de interéss</label>
+
+          
+          <div class="input-intereses">
+            <input type="checkbox" name="intereses" value="electro">Electro
+          </div>
+
+          <div class="input-intereses">
+            <input type="checkbox" name="intereses" value="moda">Moda
+          </div>
+
+          <div class="input-intereses">
+            <input type="checkbox" name="intereses" value="hogar">Hogar
+          </div>
+
+          <div class="input-intereses">
+            <input type="checkbox" name="intereses" value="jugueteria">Jugueteria
+          </div>
+
+          <div class="input-intereses">
+            <input type="checkbox" name="intereses" value="vida-sana">Vida sana
+          </div>
+
+          <label class="form-item">Foto de usuario</label>
+  
+          <div class="form-item div-input-file">
+            <input class="form-item" type="file" name="foto-usuario">
+          </div>
+  
+          <label class="form-item">Contraseña</label>
+  
+          <input class="form-item" type="password" name="contraseña" placeholder="escriba su contraseña">
+
+          <label class="form-item">Confirmar contraseña</label>
+  
+          <input class="form-item" type="password" name="contraseña-confirmada" placeholder="confirme su contraseña">
+          
+          <button type="submit" class="submit">Enviar
+            <a href="/" class="form-item"></a>
+          </button>
+
+          <button type="reset" class="reset">Cancelar</button>
+        </form>
+      </section>
+     </main>
 </body>
 </html>

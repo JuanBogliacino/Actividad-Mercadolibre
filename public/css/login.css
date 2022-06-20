@@ -80,9 +80,6 @@
       font-size: 17px;
   }
 
-  .form-section {
-  }
-
   form {
     width: 50%;
     margin: 20px auto;
@@ -105,10 +102,6 @@
     border-color: transparent;
     outline: none;
     margin-bottom: 20px;
-  }
-
-  form input:focus {
-    
   }
 
   form button {

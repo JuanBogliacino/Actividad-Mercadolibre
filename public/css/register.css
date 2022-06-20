@@ -79,6 +79,69 @@
       padding: 5px 0;
       font-size: 17px;
   }
+
+  form {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .form-item {
+    width: 100%;
+  }
+
+  form label {
+    margin-bottom: 10px;
+    font-family: 'Shippori Antique', sans-serif;
+    font-weight: bold;
+  }
+
+  form input {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    outline: none;
+    margin-bottom: 20px;
+  }
+
+  .div-radio {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .input-intereses {
+    width: 100%;
+    display: block;
+  }
+
+  form .div-input-file {
+    width: 100%;
+    display: felx;
+    justify-content: flex-start;
+  }
+
+  form button {
+    border-color: transparent;
+    
+    color: #fff;
+    font-weight: bold;
+    margin: 10px auto;
+    min-width: 100px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  form .submit {
+    background: rgb(0, 67, 155);
+  } 
+
+  form .reset {
+    background: rgb(201, 31, 31);
+  } 
   
   @media (min-width: 361px){
   
@@ -154,5 +217,13 @@
   
       .main-navbar li i {
           margin-left: 3px;
+      }
+
+      form {
+        width: 50%;
+    }
+
+    form .div-input-file input {
+        width: 50%;
       }
   }
