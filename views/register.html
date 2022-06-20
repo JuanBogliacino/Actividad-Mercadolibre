@@ -1,98 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="/css/register.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&family=IBM+Plex+Sans:ital,wght@1,200&family=M+PLUS+1+Code:wght@300&family=Roboto:wght@300&family=Rubik:wght@500&family=Shippori+Antique&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          src="https://kit.fontawesome.com/0442526d0c.js"
+          crossorigin="anonymous"
+        ></script>
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          rel="stylesheet"
+        />
+        <title>Register</title>
+        <link rel="stylesheet" href="/css/register.css" />
+      </head>
 <body>
-
-    <div class="caja-amarilla"></div>
-
-    <form class="formulario">
-     <div class="div-label">
-       <label>Nombre y Apellido
-        <input type="text" name="nombre">
-       </label>
-     </div>
-
-    <div class="div-label">
-        <label>Nombre de usuario
-            <input type="email" name="email">
-        </label>
-    </div>
-
-    <div class="div-label">
-        <label>Fecha de nacimiento
-            <input type="date" name="fecha-nacimiento">
-        </label>
-    </div>
-
-    <div class="div-label">
-        <label>Domicilio
-            <input type="text" name="domicilio">
-        </label>
-    </div>
-
-        <label class="label-radio">Perfil de usuario</label>
-        <div class="div-radio">
-            <div>
-                <input type="radio" name="perfil-usuario" value="si">si
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <article class="div-logo-barra">
+               <img src="/images/logo-mercado-liebre.svg" class="logo">
+                <div class="barra-busqueda">
+               <input type="text" placeholder="Buscar producto"><i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <div>
-                <input type="radio" name="perfil-usuario" value="no">no
-            </div>
+            </article>
+            <h2 class="copy-header">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito</h2>
         </div>
-
-        <div class="div-label-categorias">
-            <label class="label-categorias">Categorías de interés</label>
-        </div>
-        <article class="article-intereses">
-        <div>
-            <input type="checkbox" name="intereses" value="electro">Electro
-        </div>
-        <div>
-            <input type="checkbox" name="intereses" value="moda">Moda
-        </div>
-        <div>
-            <input type="checkbox" name="intereses" value="hogar">Hogar
-        </div>
-        <div>
-            <input type="checkbox" name="intereses" value="jugueteria">Juguetería
-        </div>
-        <div>
-            <input type="checkbox" name="intereses" value="vida-sana">Vida sana
-        </div>
-        </article>         
-
-        <div class="label-file">
-            <label>Foto de usuario
-                <input type="file" name="foto-usuario" accept=".jpg" multiple class="input-file">
-            </label>
-        </div>
-
-        <div class="div-label">
-            <label class="label-contraseña">Contraseña
-                <input type="password" name="contraseña">
-            </label>
-        </div>
-
-        <div class="div-label">
-            <label>Confirmar contraseña
-                <input type="password" name="contraseña">
-            </label>
-        </div>
-
-        
-        <div class="div-button">
-            <button type="reset" class="button-cancelar">Cancelar</button>
-    
-            <a href="/#"><button type="submit" class="button-enviar">Enviar</button></a>
-        </div>
-
-
-    </form>
+  
+        <a href="#" class="hamburguer-button">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+  
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+              <li><a href="#">Ofertas</a></li>
+              <li><a href="#">tiendas Oficiales</a></li>
+              <li><a href="#">Vender</a></li>
+              <li><a href="#">Ayuda</a></li>
+            </ul>
+  
+            <ul class="left-navbar">
+              <a href="/register">
+                <li>
+                  Creá tu cuenta<i class="fa-solid fa-credit-card"></i>
+                </li>
+              </a>
+              <a href="/login">
+                <li>
+                  Ingresá<i class="fa-solid fa-sign-in-alt"></i>
+                </li>
+              </a>
+              <a href="#">
+                <li>
+                  Mis compras<i class="fa-solid fa-shopping-basket"></i>
+                </li>
+              </a>
+            </ul>
+         </nav>
+     </header>
 </body>
 </html>
