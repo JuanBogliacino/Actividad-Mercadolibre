@@ -95,7 +95,6 @@
   form label {
     margin-bottom: 10px;
     font-family: 'Shippori Antique', sans-serif;
-    font-weight: bold;
   }
 
   form input {
@@ -142,6 +141,38 @@
   form .reset {
     background: rgb(201, 31, 31);
   } 
+
+
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+  }
+
+  footer h4 {
+    margin-bottom: 5px;
+  }
+
+  footer p {
+    margin-top: 0%;
+  }
+
+ .footer-icono i {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #1259c3;
+    font-size: 2em;
+ }
+
+ .footer-icono i:hover {
+    color: #39b54a;
+ }
+
+ footer .last-p {
+    margin-top: 30px;
+ }
   
   @media (min-width: 361px){
   
@@ -225,5 +256,22 @@
 
     form .div-input-file input {
         width: 50%;
+      }
+
+
+
+
+      .footer-conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .footer-conteiner-item {
+        width: 30%;
+      }
+
+      .footer-conteiner-item p {
+        font-size: 14px;
       }
   }
